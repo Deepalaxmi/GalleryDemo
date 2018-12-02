@@ -41,7 +41,7 @@ The focus is on the layout, making sure it adjusts across devices of various siz
 * Apps in production have access to 5,000 requests per hour as long as your application follows [Unsplash’s API Guidelines](https://medium.com/unsplash/unsplash-api-guidelines-28e0216e6daa) and [Terms](https://unsplash.com/api-terms).
 * [Unsplash API Documentation](https://unsplash.com/documentation)
 
-### Addiational Info
+**Additional Info**
 * App is showing images sorted by popularity
 * Number of items per page. (Optional; default: 10)
 
