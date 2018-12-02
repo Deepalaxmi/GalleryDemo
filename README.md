@@ -35,11 +35,15 @@ The focus is on the layout, making sure it adjusts across devices of various siz
 * Further enhancements/proposals
 * Optional but preferred: Testflight or some other mechanism of delivering the application.
 
-### Additional features
-* Forward button disabled when no page to forward
-* Option to remove bookmark
-* Progress bar to show loading progress
-* Persistence of bookmarks after quitting app
+### API Details
+* Used **Unsplash List Photos API** to get a single page from the list of all photos. [Reference](https://unsplash.com/documentation#list-photos)
+* Demo apps are limited to 50 requests per hour while in development mode.
+* Apps in production have access to 5,000 requests per hour as long as your application follows [Unsplash’s API Guidelines](https://medium.com/unsplash/unsplash-api-guidelines-28e0216e6daa) and [Terms](https://unsplash.com/api-terms).
+* [Unsplash API Documentation](https://unsplash.com/documentation)
+
+### Addiational Info
+* App is showing images sorted by popularity
+* Number of items per page. (Optional; default: 10)
 
 ### Screencast
 [![Screencast video Gallery Demo](https://img.youtube.com/vi/gJTHWB1iXPs/0.jpg)](https://youtu.be/gJTHWB1iXPs)
